@@ -1,0 +1,33 @@
+Packages and their classes present in the project:
+
+Com.FileProcessing
+-> AverageIndexValueChangeCalculation.java
+-> CheckDataTypes.java
+-> DailyIndexValueChangeCalculation.java
+-> DayWithMaxDeviationCalculation.java
+-> MaxUpsideDownsideIndexValueInPeriodCalculation.java
+[Desc: list of objects is processed accordingly, then it goes to reporting]
+
+
+com.FileReader
+-> CSVFileReader.java
+-> JSONFileReader.java
+-> XMLFileReader.java
+[Desc: it will get the file, Read the file and stores it in the form of list( of object) ,then it will go to processing] 
+
+com.MainContent
+-> FileContent.java
+[Desc: model of the data in the files which contains setters and getters]
+
+com.Reporting
+->CustomReportCreation.java
+[Desc: To Generate Custom Report]
+
+com.Validations
+->FloatValidation.java
+->LongValidation.java
+->StringValidation.java
+[Desc: contains validation functions]
+
+
+
